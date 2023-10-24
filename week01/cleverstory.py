@@ -22,7 +22,7 @@ print('right in front of my family.')
 print()
 more = input('Would you like to continue the story? ')
 
-# Checking to see if the first character of the 
+# Checking to see if the first character of the input above is Y (assuming they said yes)
 if more[0].lower() == 'y':
     # Needed to use " to accomodate aren't in the prompt
     print()
@@ -37,7 +37,7 @@ if more[0].lower() == 'y':
     print(f'Had I not {verb3.lower()}ed, I am very sure that the {animal.lower()} would have {verb4.lower()}ed.')
     print(f'Having to clean up the {noun} would have taken {time.lower()}.')
     print(f'Gratefully, {historic_figure.title()} saw this fiasco and said: "{catch_phrase}"')
-    print(f'Then all of a sudden I woke up from this strange dream and realized that I was late to catch my flight to {vacation_spot}!')
+    print(f'Then all of a sudden I woke up from this strange dream and realized that I was late to catch my flight to {vacation_spot.title()}!')
 
 # If they don't want more story, thanking them for reading part 1
 else:
